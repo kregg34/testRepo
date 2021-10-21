@@ -2,7 +2,7 @@ os: windows
 language: python
 sudo: false
 script:
-    - python test.python
+    - python test.py
     
 after_success:
     - bash <(curl -s https://codecov.io/bash)
